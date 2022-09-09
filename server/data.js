@@ -48,7 +48,7 @@ exports.addArtist = (data) => {
   return artists[artistId];
 };
 
-exports.editArtistByArtistId = (artistId, data) => {
+exports.ArtistByArtistId = (artistId, data) => {
   artists[artistId] = {
     ...artists[artistId],
     ...data,
